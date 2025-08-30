@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: ana-chat-n8n
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: GOOGLE_GEMINI_API_KEY
+        value: AIzaSyD5ixGWv-S3-4__ezNqAyisChi46Mkr72Y
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_PORT
+        value: 10000
+      - key: N8N_PROTOCOL
+        value: https
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: true
+      - key: DB_SQLITE_POOL_SIZE
+        value: 10
+      - key: N8N_RUNNERS_ENABLED
+        value: true
+      - key: PORT
+        value: 10000
