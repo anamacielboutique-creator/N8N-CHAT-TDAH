@@ -5,29 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "n8n start",
-    "dev": "n8n start", 
-    "build": "echo 'N8N ready for deployment'"
+    "dev": "n8n start",
+    "build": "npm install"
   },
   "dependencies": {
     "n8n": "^1.108.2"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
+    "node": ">=18.0.0"
   },
-  "keywords": [
-    "n8n", 
-    "workflow", 
-    "automation", 
-    "tdah", 
-    "autismo", 
-    "chat", 
-    "ai"
-  ],
+  "keywords": ["n8n", "workflow", "automation", "tdah", "autismo"],
   "author": "Andre Almeida",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/seu-usuario/ana-chat-n8n.git"
-  }
+  "license": "MIT"
 }
