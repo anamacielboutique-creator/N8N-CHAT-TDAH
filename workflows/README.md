@@ -25,7 +25,7 @@ Este projeto está configurado para deploy automático no Railway.
 ### **Variáveis de Ambiente Necessárias:**
 
 ```env
-GOOGLE_GEMINI_API_KEY=sua_api_key_aqui
+GOOGLE_GEMINI_API_KEY=AIzaSyBEgUPXGlzNmqG0SwQc1YPcKqCW14nrMu0
 N8N_HOST=0.0.0.0
 N8N_PORT=5678
 N8N_PROTOCOL=https
